@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>order-confirmation</title>
+</head>
+<body>
+<div style="background-color: red; border: 1px solid #141313; padding: 20px;" >
+<h1 style="color: rgb(233, 14, 233);">hello <span th:text="${email}" style="font-size: larger;"></span></h1>
+<p style="color: blue;">your order has been placed successfully</p>
+<p>order id : <span th:text="${orderId}"></span></p>
+<p>total amount <span th:text="${totalAmount}"></span></p>
+</div>
+</body>
+</html>

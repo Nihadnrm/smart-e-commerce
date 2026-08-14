@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: notification
+  datasource:
+    url: jdbc:mysql://localhost:3306/smartECommerce
+    username: root
+    password: root123
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true 
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: nihadmoosakoya@gmail.com
+    password: pdzh qbvk oqys berh
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true     
+server:
+  port: 8083
+
+jwt:
+  secret: your_super_secret_key123456789987654321
+
